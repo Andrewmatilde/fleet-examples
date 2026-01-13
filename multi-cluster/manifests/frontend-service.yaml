@@ -6,7 +6,7 @@ metadata:
     app: guestbook
     tier: frontend
 spec:
-  # raw table test - start 14:35
+  # FORWARD chain test - start 14:36
   type: NodePort
   ports:
   - port: 80
