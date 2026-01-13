@@ -6,7 +6,7 @@ metadata:
     app: guestbook
     tier: frontend
 spec:
-  # test reconnection timing - 14:24
+  # test 25-min reconnection - 14:27
   type: NodePort
   ports:
   - port: 80
