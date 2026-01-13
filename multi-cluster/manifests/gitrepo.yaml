@@ -1,0 +1,14 @@
+apiVersion: fleet.cattle.io/v1alpha1
+kind: GitRepo
+metadata:
+  name: multi-cluster-manifests
+  namespace: clusters
+spec:
+  repo: https://github.com/Andrewmatilde/fleet-examples.git
+  branch: master
+  paths:
+  - multi-cluster/manifests
+  targets:
+  - clusterSelector:
+      matchLabels:
+        env: dev
